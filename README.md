@@ -1,6 +1,7 @@
 # ITec3092
 
-1. Install Wamp or XAMPP server on your machine.
-2. If you install Wamp server, download a code in this repository and save it inside www direcotory.
-   But if XAMPP is used, save the file inside htdocs directory.
+1. Download WAMP server from https://www.wampserver.com/en/ or XAMPP server from https://www.apachefriends.org/download.html
+2. Install Wamp or XAMPP server on your machine.
+3. If you install Wamp server, download a code in this repository and save/extract it inside www direcotory.
+   But if XAMPP is used, extract the file inside htdocs directory.
 3. To access a given page, open your browser and type http://localhost/directoryName/fileName.php
