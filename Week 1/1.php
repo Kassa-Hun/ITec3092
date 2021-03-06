@@ -1,0 +1,34 @@
+<?php 
+    $id="TEE/001/06";
+    $fulname="Mr. Alemu";
+	$dob="1990-01-01";
+	$age=(int)date('Y')-(int)substr($dob,0,4);
+	$place_of_birth="Dejen";
+	$City="Bichena";
+	$Region=03;
+	$pob=1290;
+	$email="xyz@gmail.com";
+    $dept="IT";
+	$college="Technology";
+	$univ="DMU";
+	echo "<table align=\"center\" border=\"1\" bgcolor=\"pink\" cellpadding=\"0\"  cellspaning=\"0\"> <tr><td>";
+	echo "<form  action=\"\" method=\"post\" > <br />";
+	echo "<h1 align=\"center\"><u ><b>My Profile</b></u> </h1>";
+	echo "ID:<input type=\"text\" name=\"id\" value=$id /> <br />";
+	echo "Full Name:<input type=\"text\" name=\"fname\" value=\"$fulname\" /> <br />";
+	echo "Date of Birth:<input type=\"text\" name=\"d_o_b\" value=$dob /> <br />";
+	echo "Age:<input type=\"text\" name=\"d_o_b\" value=$age size=\"3\" maxlength=\"3\" /> <br />";
+	echo "Birth Place:<input type=\"text\" name=\"bp\" value=$place_of_birth /> <br />";
+	echo "Current Address:<br />";
+	echo "&nbsp;&nbsp; City:<input type=\"text\" name=\"city\" value=$City /> <br />";
+	echo "&nbsp;&nbsp; Region:<input type=\"text\" name=\"reg\" value=$Region /> <br />";
+	echo "&nbsp;&nbsp; P.O.BOX:<input type=\"text\" name=\"pobx\" value=$pob /> <br />";
+	echo "&nbsp;&nbsp; Email:<input type=\"text\" name=\"em\" value=$email /> <br />";
+	echo "Department Name:<input type=\"text\" name=\"dep\" value=$dept /> <br />";
+	echo "College Name:<input type=\"text\" name=\"cn\" value=$college /> <br />";
+	echo "University:<input type=\"text\" name=\"un\" value=$univ /> <br />";
+	echo "</form >";
+	echo "</td>";
+	echo "</tr >";
+	echo "</table >";
+?>
