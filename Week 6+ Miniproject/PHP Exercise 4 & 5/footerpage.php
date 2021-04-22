@@ -1,1 +1,0 @@
-<?php echo "<p> &copy; ". date('Y')." DMIoT. All rights reserved. </p>"; ?>
